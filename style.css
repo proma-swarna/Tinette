@@ -1,0 +1,664 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.boundary{
+	margin:0 auto;
+	width:1100px;
+}
+.head{
+	overflow:hidden;
+	background-image:url('image/banner2.webp');
+	background-position:center;
+	background-size:cover;
+	text-align:left;
+}
+.logo{
+	float: left;
+	margin-right:226px;
+}
+.logo img{
+	width: 200px;
+}
+.menu{
+	float:right;
+	width:181px;
+	margin: 32px;
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+}
+.menu ul li{
+	display: block;
+	text-align: center;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: Forte;
+	font-size: 28px;
+	text-transform: capitalize;
+	display:block;
+	padding: 1px;
+	margin-top: 10px;
+	background-color:#AC1818;
+	border-radius: 25px;
+}
+.menu ul li a:hover,.about-us a:hover,.recipe a:hover,.service1 a:hover,.service2 a:hover,.service3 a:hover,.reservation-area a:hover{
+	color:#AC1818;
+	background-color:#EFCE93;
+	
+}
+.border{
+	text-align: center;
+	overflow:hidden;
+}
+.border h4{
+	font-size: 30px;
+    font-family: Forte;
+    color: #AC1818;
+    text-transform: capitalize;
+	padding: 0px;
+	margin-top: 20px;
+}
+.border img{
+	width: 268px;
+	height: 123px;
+}
+.about{
+	overflow:hidden;
+}
+.about-us{
+	float:left;
+	text-align:center;
+	padding:9px;
+}
+.about-us:hover,.reservation-area:hover{
+	background-color:#FFEEC7;
+	border:1px solid #97C1DD;
+}
+.about-us h4{
+	font-size: 30px;
+    font-family: Forte;
+    color: #AC1818;
+    text-transform: capitalize;
+	margin-left: 173px;
+	margin-right: 180px;
+}
+.about-us p{
+	width: 424px;
+	text-align: justify;
+	margin-left: 28px;
+	color: #AC1818;
+	font-family: Forte;
+	padding:4px;
+}
+.about-us a,.reservation-area a{
+	text-decoration: none;
+	color: white;
+	font-family: Forte;
+	font-size: 17px;
+	text-transform: capitalize;
+	display: inline-block;
+	padding: 9px;
+	margin-top: 8px;
+	background-color: #AC1818;
+	border-radius:30px;
+	margin-left:14px;
+}
+.about-image img{
+	float: right;
+	width: 513px;
+	background-color: #E2E2E2;
+	padding: 11px;
+}
+.recipes{
+	overflow:hidden;
+}
+.recipes h4,.services h4,.our-team h4{
+	text-align:center;
+	font-size: 37px;
+    font-family: Forte;
+    color: #AC1818;
+    text-transform: capitalize;
+	background-color:#FFFFFF;	
+}
+.recipe{
+	float:left;
+	text-align:center;
+	margin-right: 20px;
+	margin-top: 32px;
+	width:353px;
+}
+.recipe:last-child,.members:last-child,.chefs:last-child,.recipe1:last-child,.item1:last-child{
+	margin-right:0;
+}
+.recipe img{
+	width:340px;
+	border: 2px solid #6D5342;
+	padding: 1px;
+}
+.recipe h4,.service1 h4,.service2 h4,.service3 h4{
+	font-size: 27px;
+	text-align: center;
+	margin: 14px;
+}
+.recipe p{
+	width: 340px;
+	text-align: justify;
+	color: #AC1818;
+	font-family: forte;
+	padding: 3px;
+}
+.recipe a,.service1 a,.service2 a,.service3 a{
+	text-decoration: none;
+	color: white;
+	font-family: Forte;
+	font-size: 15px;
+	text-transform: capitalize;
+	display: inline-block;
+	padding: 4px;
+	margin-top: 10px;
+	background-color: #AC1818;
+	border-radius:30px;
+	margin-left:7px;
+}
+.services{
+	text-align:center;
+	background-color:#FFEEC7;
+	padding: 12px;
+	
+}
+.service1 p,.service2 p,.service3 p{
+	color: #AC1818;
+	font-family: forte;
+}
+.service1 img{
+	width: 94px;
+	height: 94px;
+	margin-top:27px;
+}
+.service3 img{
+	width: 89px;
+	height: 97px;
+	margin-top:27px;
+}
+.reservation{
+	overflow:hidden;
+}
+.reservation-area{
+	float:left;
+	text-align:center;
+	padding: 10px;
+	margin-top: 113px;
+	margin-right: 110px;
+	margin-left: 47px;
+}
+.reservation h4{
+	text-align:center;
+	font-size: 37px;
+    font-family: Forte;
+    color: #AC1818;
+    text-transform: capitalize;
+}
+.reservation-area p{
+	width: 261px;
+	text-align: justify;
+	margin-left: 1px;
+	color: #AC1818;
+	font-family: Forte;
+	padding:18px;
+}
+.reservation-image{
+	margin-top:80px;
+}
+.reservation-image img{
+	width: 296px;
+	padding: 17px;
+	border: 5px solid #E2E2E2;
+	margin-top:28px;
+	margin-right:30px;
+}
+.contact{
+	overflow:hidden;
+}
+.contact-us{
+	float :left;
+	text-align:left;
+	width: 531px;
+	padding: 20px;
+	margin-top:60px;
+	border-right:1px solid #AC1818;
+}
+.contact-us h4,.location h4{
+    color: #AC1818;
+    font-size: 20px;
+    font-family: Castellar;
+    text-transform: capitalize;
+	margin-top:52px;
+	margin-bottom:18px;
+}
+.contact-us p,.location p{
+    color: #AC1818;
+    font-size: 19px;
+    font-family: Castellar;
+    text-transform: capitalize;
+}
+.location{
+	float:right;
+	padding:20px;
+	margin-right:90px;
+}
+.bold {
+	font-weight:bold;
+}
+.footer{
+	background-color: #AC1818;
+	text-align: center;
+	margin-top: 12px;
+}
+.footer p{
+	padding: 20px;
+	font-size: 15px;
+	color: #FFF;
+	font-family:Castellar;
+}
+/*about area start */
+.head-about{
+	background-image:url('image/abot.jpg');
+	background-size: cover;
+	background-position: center;
+	overflow:hidden;
+}
+.aboutus{
+	overflow:hidden;
+}
+.about-left{
+	float:left;
+	margin-right:100px;
+	margin-top:55px
+}
+.about-left h4{
+	font-size: 30px;
+    font-family: Forte;
+    color: #AC1818;
+    text-transform: capitalize;
+	margin-left: 173px;
+	margin-right: 180px;
+}
+.about-left p{
+	width: 424px;
+	text-align: justify;
+	margin-left: 28px;
+	color: #AC1818;
+	font-family: Forte;
+	padding:4px;
+	margin-top:10px;
+}
+.about-right{
+	margin-top:70px;
+}
+.about-right img{
+	background-color:#E2E2E2;
+	float: right;
+	padding: 11px;
+}
+.our-team{
+	overflow:hidden;
+	margin-bottom:90px;
+}
+.owner {
+	text-align:center;
+	margin-top:30px;
+}
+.owner img{
+	width:190px;
+	border-left:1px solid #A0A0A0;
+	border-right:1px solid #A0A0A0;
+	border-bottom:1px solid #A0A0A0;
+	padding:5px;
+}
+.owner h2,.members h2{
+    text-transform: capitalize;
+    color: #AC1818;
+	margin-top:20px;
+	font-family:Castellar;
+}
+.owner p,.members p,.chefs p{
+	color: #AC1818;
+    text-transform: capitalize;
+	margin-top:9px;
+	font-size:20px;
+	font-family:Castellar;
+}
+.member{
+	overflow:hidden;
+}
+.members{
+	float:left;
+	text-align:center;
+	margin-right: 20px;
+	margin-top: 32px;
+	width:353px;
+}
+.members img{
+	width:290px;
+	border-left:1px solid #A0A0A0;
+	border-right:1px solid #A0A0A0;
+	border-bottom:1px solid #A0A0A0;
+	padding:5px;
+}
+.chef{
+	overflow:hidden;
+}
+.chefs{
+	float:left;
+	text-align:center;
+	margin-right: 15px;
+	margin-top:55px;
+	width:263px;
+}
+.chefs img{
+	width:260px;
+	border-left:1px solid #A0A0A0;
+	border-right:1px solid #A0A0A0;
+	border-bottom:1px solid #A0A0A0;
+	padding:5px;
+}
+.story{
+	background-image:url('image/food1.jpg');
+	background-size:cover;
+	background-position:center;
+	padding: 95px;
+}
+.story h4{
+	color:#AC1818;
+	font-size: 23px;
+    font-family: forte;
+    text-transform: capitalize;
+	text-align:center;
+	margin-left: 230px;
+}
+.story p{
+	color:#AC1818;
+	text-align:justify;
+	font-size: 14px;
+    font-family: forte;
+    text-transform: capitalize;
+	padding:9px;
+	margin-left: 258px;
+}
+/*recipe area start*/
+.head-recipe{
+	background-image:url('image/food.gif');
+	background-size: cover;
+	background-position: center;
+	overflow:hidden;
+}
+.recipe-item{
+	overflow:hidden;
+	padding: 15px;
+}
+.recipe-item h4{
+	font-size: 35px;
+    font-family: Forte;
+    color: #AC1818;
+    text-transform: capitalize;
+	text-align:center;
+	margin-top: 35px;
+	margin-bottom:35px;
+	background-color: #FFF;
+}
+.recipe1{
+	float:left;
+	width: 261px;
+	margin-right: 143px;
+}
+.recipe1 h2,.item h2{
+    text-transform: capitalize;
+    color: #FFF;
+	margin-top:20px;
+	font-family:Castellar;
+	text-align:center;
+	margin-bottom: 15px;
+	background-color: #AC1818;
+	padding:4px;
+}
+.recipe1 img{
+	width:260px;
+	border: 1px solid #4B4B4C;
+	background-color: #D6EEFB;
+	padding: 4px;
+}
+.recipe1 p{
+	color: #AC1818;
+    text-transform: capitalize;
+	margin-top:9px;
+	font-size:20px;
+	font-family:forte;
+	text-align:center;
+}
+.item,.item2{
+	overflow:hidden;
+	margin-top:26px;
+	margin-bottom:8px;
+}
+.item1{
+	float:left;
+	width: 257px;
+	margin-right: 24px;
+	padding: 2px;
+}
+
+.item2 ul{
+	list-style: none;
+	text-align: right;
+}
+.item2 ul li{
+	display: block;
+	text-align: center;
+	border-bottom: 1px solid #A6A6A7;
+	margin-bottom: 9px;
+	padding-bottom: 2px;
+	background-color: #E2E2E2;
+	
+}
+.item2 ul li a{
+	text-decoration: none;
+	color: #AC1818;
+	font-family: Forte;
+	font-size: 18px;
+	text-transform: capitalize;
+	display: block;
+	padding: 1px;
+	margin-top: 10px;
+}
+.order{
+	text-align:center;
+}
+.order a{
+	text-decoration: none;
+	color: white;
+	font-family: Forte;
+	font-size: 20px;
+	text-transform: capitalize;
+	display: inline-block;
+	padding: 8px;
+	margin-top: 8px;
+	background-color: #AC1818;
+	border-radius:30px;
+}
+
+/*recipe area end*/
+/*service area start*/
+.head-service{
+	background-image:url('image/delivery.jpg');
+	background-size: cover;
+	background-position: center;
+	overflow:hidden;
+}
+.serviceus{
+	overflow:hidden;
+}
+.service-left{
+	float:left;
+	margin-right:90px;
+	margin-top:45px;
+}
+.service-left h4{
+	font-size: 30px;
+    font-family: Forte;
+    color: #AC1818;
+    text-transform: capitalize;
+	margin-left: 173px;
+	margin-right: 180px;
+}
+.service-left p{
+	width: 424px;
+	text-align: justify;
+	margin-left: 28px;
+	color: #AC1818;
+	font-family: Forte;
+	padding:4px;
+	margin-top:10px;
+}
+.service-right{
+	background-color:#E2E2E2;
+	float: right;
+	padding: 10px;
+	margin-top: 110px;
+}
+.service-right img{
+	width: 526px;
+}
+.service-right p{
+	text-align: justify;
+	color: #AC1818;
+	font-family: Forte;
+	padding:4px;
+	margin-top:5px;
+	text-transform: capitalize;
+	font-size: 18px;
+	width: 526px;
+}
+/*service area end*/
+/*reservation area start*/
+.head-reservation{
+	background-image:url('image/rejerb1.jpg');
+	background-size: cover;
+	background-position: center;
+	overflow:hidden;
+}
+.reservationus{
+	overflow:hidden;
+	background-color: #E2E2E2;
+	padding: 22px;
+}
+.reservation-form{
+	float: left;
+	width: 629px;
+	margin-right: 10px;
+	border:5px solid #FFF;
+	padding: 11px;
+}
+.reservation-form h4{
+	text-transform: capitalize;
+    color: #AC1818;
+	margin-top: 20px;
+	font-family: Castellar;
+	font-size: 27px;
+}
+.reservation-form input,.reservation-form textarea{
+	width: 100%;
+	padding: 16px;
+	margin-top: 19px;
+	border-bottom: 3px solid #463E3F;
+	border-top: 0px;
+}
+.reservation-form select{
+	padding: 16px;
+	margin-top: 19px;
+	border-bottom: 3px solid #463E3F;
+	border-top: 0px;
+	width: 284px;
+	margin-right: 3px;
+}
+.reservation-form input[type="submit"]{
+	width: auto;
+	padding: 14px 43px;
+	border: 0;
+	background-color: #AC1818;
+	color:#FFF;
+	cursor:pointer;
+}
+.rejerb-image,.rejerb-image1{
+	padding: 8px;
+	overflow:hidden;
+}
+.rejerb-image img{
+	width: 100%;
+	border:1px solid #FFF;
+}
+.rejerb-image1{
+	width: 100%;
+}
+/*reservation area end*/
+/*contact area start*/
+.head-contact{
+	background-image:url('image/c.jpg');
+	background-size: cover;
+	background-position: center;
+	overflow:hidden;
+}
+.orderus{
+	overflow:hidden;
+	background-color: #E2E2E2;
+	padding: 22px;
+}
+.order-form h4{
+	text-transform: capitalize;
+    color: #AC1818;
+	margin-top: 20px;
+	font-family: Castellar;
+	font-size: 27px;
+}
+.order-form{
+	float: left;
+	padding: 35px;
+}
+.order-form input{
+	width: 100%;
+	padding: 16px;
+	margin-top: 19px;
+	border-bottom: 3px solid #463E3F;
+	border-top: 0px;
+}
+.order-form select{
+	padding: 16px;
+	margin-top: 19px;
+	border-bottom: 3px solid #463E3F;
+	border-top: 0px;
+	width: 100%;
+	margin-right: 3px;
+}
+.order-form input[type="submit"]{
+	width: auto;
+	padding: 14px 43px;
+	border: 0;
+	background-color: #AC1818;
+	color:#FFF;
+	cursor:pointer;
+}
+.map{
+	margin-bottom:10px;
+}
+.map iframe{
+	width:100%;
+	margin-top:33px;
+	height: 305px;
+	border: 1px solid aliceblue;
+}
+/*cotact area end*/
